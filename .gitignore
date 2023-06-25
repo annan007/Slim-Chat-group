@@ -1,0 +1,71 @@
+# Ignore vendor directory
+/vendor
+
+# Ignore Composer dependencies
+/composer.lock
+/composer.phar
+
+# Ignore Codeception dependencies
+/codeception
+/tests/_output
+
+# Ignore IDE-specific files
+/.idea
+/.vscode
+
+# Ignore system and temporary files
+/.DS_Store
+/.env
+/.env.example
+/.env.*
+/.env.local
+/.env.local.*
+/.env.php
+/.env.php.*
+/.env.test
+/.env.test.*
+/logs
+/public/uploads
+/public/storage
+/storage
+/test_results
+
+# Ignore build and compiled files
+/build
+/dist
+/public/build
+
+# Ignore sensitive or personal information
+/.env.secret
+/.env.private
+
+# Ignore any other files or directories specific to your project
+
+# Ignore Composer-generated autoload files
+/vendor/autoload.php
+/vendor/composer/
+
+# Ignore Node.js dependencies
+/node_modules
+/package-lock.json
+
+# Ignore PHPUnit generated files
+/phpunit.xml
+/tests/_bootstrap.php
+/tests/_coverage
+/tests/_log
+/tests/_support/_generated
+
+# Ignore PHPStorm project files
+/.phpstorm.meta.php
+/.phpstorm.project.xml
+/.phpstorm_workspace.xml
+
+# Ignore Sublime Text project files
+/.sublime-project
+/.sublime-workspace
+
+# Ignore Vim swap files
+*.swp
+*.swo
+

@@ -1,4 +1,4 @@
-# Bunq Chat Group Assignment
+## Description
 
 This project is a simple PHP chat backend implemented using the Slim Framework and SQLite database. It provides APIs to manage chat groups, join groups, and send/receive messages within groups.
 

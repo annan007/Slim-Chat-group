@@ -1,9 +1,12 @@
 <?php
+
+namespace Tests;
+
 use PHPUnit\Framework\TestCase;
 
 class ChatApiTest extends TestCase
 {
-    private $apiUrl = 'http://localhost:8000';
+    private $apiUrl = 'http://localhost:8080';
 
     public function testCreateGroup()
     {

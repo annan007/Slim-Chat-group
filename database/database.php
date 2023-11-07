@@ -7,7 +7,8 @@ class Database
     //the constructor creates the table if they don't exist
     public function __construct()
     {
-        $this->pdo = new PDO('sqlite:../src/database/chat_app.db');
+        $databasePath = __DIR__ . '/../database/chat_app.db';
+        $this->pdo = new PDO('sqlite:' . $databasePath);
         $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $this->createTables();
     }
@@ -64,6 +65,3 @@ class Database
         )');
     }
 }
-
-$database = new Database();
-$pdo = $database->getConnection();
